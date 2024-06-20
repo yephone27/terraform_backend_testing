@@ -11,7 +11,7 @@ provider "aws" {
   shared_config_files      = ["~/.aws/config"]
   shared_credentials_files = ["~/.aws/credentials"]
   profile                  = var.aws-profile
-  alias                    = "ypsalias"
+  # alias                    = "ypsalias"
   region                   = var.aws-prod-yps-region
 }
 
